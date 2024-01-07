@@ -1,0 +1,412 @@
+/* Scss Document */
+/* Scss Document */
+/* Scss Document */
+/* Scss Document */
+.top-header {
+  background-color: #182143;
+  padding: 10px 0;
+  color: #ffffff; }
+  .top-header .top-header-mr {
+    margin-right: 15px; }
+  .top-header i {
+    margin-right: 10px;
+    color: #88C417; }
+  .top-header .top-btn {
+    background-color: #88C417;
+    padding: 6px 25px; }
+    .top-header .top-btn a {
+      color: #ffffff;
+      text-decoration: none;
+     }
+
+.navbar {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  padding: 15px 0;
+  transition: 0.5s; }
+  .navbar.nav-active {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99; }
+  .navbar-nav .nav-link {
+    font-size: 18px;
+    color: #323232;
+    font-weight: 700;
+    padding: 10px 20px !important;
+    position: relative; }
+    .navbar-nav .nav-link.active {
+      color: #88C417; }
+      .navbar-nav .nav-link.active::after {
+        position: absolute;
+        content: "";
+        width: 22px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #88C417;
+        bottom: 0px;
+        left: 50%;
+        transform: translateX(-50%); }
+
+/* Scss Document */
+/* Scss Document */
+@media (max-width: 575px) and (min-width: 406px) {
+  .loans .loan-info {
+    bottom: -123px !important; } }
+@media (max-width: 1400px) and (min-width: 1180px) {
+  .loans .loan-info {
+    bottom: -170px !important; } }
+@media (max-width: 991px) and (min-width: 584px) {
+  .loans .loan-info {
+    bottom: -100px !important; } }
+@media (max-width: 575px) {
+  .review-info br {
+    display: none; }
+
+  .testimonials .tes-nav {
+    margin-left: 130px !important; }
+
+  .testimonials .testimonials-slider {
+    margin: 0 10px !important; } }
+@media (min-width: 992px) {
+.history-section {
+  height: 430px;
+  overflow-y: scroll; }
+  }
+
+@media (max-width: 991px) {
+  .nav-item {
+    border-bottom: 1px solid #dddddd; }
+
+  .nav-link.active::after {
+    bottom: -3px !important;
+    left: 40px !important; } }
+html {
+  scroll-behavior: smooth; user-select:none }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: lato; }
+
+.blue-bg {
+  background: #182143; }
+
+.green-bg {
+  background: #88C417; }
+
+.green-color {
+  color: #88C417; }
+
+.white-color {
+  color: #ffffff; }
+
+.white-bg {
+  background: #ffffff; }
+
+.section-padding-top {
+  padding: 90px 0; }
+
+.mt-6 {
+  margin-top: 4rem !important; }
+
+body {
+  font-size: 15px;
+  font-family: lato; }
+
+input[type=number] {
+  -moz-appearance: textfield; }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+.form-control:focus {
+  box-shadow: none !important; }
+
+.custom-btn, .banner-btn a, .banner-form input[type="submit"], .banner-form input[type="submit"]:hover {
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600; }
+
+label.error {
+  color: red;
+  font-style: italic;
+  margin-top: 5px; }
+
+.banner {
+  background: rgba(34, 48, 96, 0.8) url(banner.jpg) no-repeat center;
+  padding: 70px 0;
+  background-blend-mode: multiply;
+  background-size: cover; }
+  .banner-btn a {
+    padding: 8px 20px; }
+
+  .banner-heading h1 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.3em; }
+
+  .banner-form {
+    padding: 40px 30px;
+    background: #ffffff; }
+    .form-row .form-group {
+      width: 100%; }
+      .form-row .form-group:first-child {
+        margin-right: 2%; }
+    .banner-form input[type="submit"], .banner-form input[type="submit"]:hover {
+      padding: 10px !important;
+      border-radius: 0 !important;
+      background: #88C417 !important; }
+
+.headings-top h2 {
+  font-size: 32px;
+  font-weight: 600; }
+
+
+  .history-section .history-area {
+    position: relative;
+    padding: 0 20px 0 60px; }
+    .history-section .history-area::before {
+      background: #ebebeb;
+      border-radius: 30px;
+      content: "";
+      position: absolute;
+      left: 25px;
+      top: 0;
+      width: 2px;
+      height: 100%; }
+    .history-items {
+      position: relative;
+      margin-bottom: 45px; }
+      .history-items .history-indicator {
+        position: absolute;
+        left: -44px;
+        width: 20px;
+        height: 20px;
+        background: #ebeaea;
+        border-radius: 50%; }
+        .history-items .history-indicator::before {
+          position: absolute;
+          left: 5px;
+          width: 10px;
+          height: 10px;
+          background: #88C417;
+          border-radius: 50%;
+          content: "";
+          top: 5px; }
+      .history-items .history-info span {
+        font-size: 14px;
+        color: #88C417; }
+      .history-items .history-info h4 {
+        color: #021244;
+        font-size: 22px;
+        font-weight: 600; }
+
+.headings-top h2 {
+  font-size: 32px;
+  font-weight: 600; }
+
+.loans {
+  overflow-x: hidden; }
+  .loans .loan-type-row {
+    margin: 0 -1.5rem; }
+  .loans .personal-type {
+    background: rgba(34, 48, 96, 0.7) url(personal-loan.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    background-blend-mode: multiply; }
+  .loans .business-type {
+    background: rgba(34, 48, 96, 0.7) url(business-loan.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    background-blend-mode: multiply; }
+  .loans .education-type {
+    background: rgba(34, 48, 96, 0.7) url(education-loan.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    background-blend-mode: multiply; }
+  .loans .health-type {
+    background: rgba(34, 48, 96, 0.7) url(health-loan.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 480px;
+    position: relative;
+    overflow: hidden;
+    background-blend-mode: multiply; }
+  .loans .loan-type:hover .loan-info {
+    bottom: 0; }
+  .loans .loan-type .loan-info {
+    position: absolute;
+    bottom: -146px;
+    color: #ffffff;
+    transition: all, 0.8s;
+    padding: 20px 35px;
+    width: 100%; }
+    .loans .loan-type .loan-info h4 {
+      font-size: 22px;
+      font-weight: 600; }
+    .loans .loan-type .loan-info .loan-bottom a {
+      font-weight: 600;
+      border-bottom: 2px solid #88C417;
+      text-decoration: none;
+     
+      font-size: 14px;
+      letter-spacing: 2px;
+      padding-bottom: 5px; }
+
+@keyframes bounce1 {
+  0% {
+    top: 0px; }
+  10% {
+    top: 3px; }
+  40% {
+    top: 40px; }
+  60% {
+    top: 25px; }
+  80% {
+    top: 35px; }
+  100% {
+    top: 30px; } }
+.choose-section {
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px; }
+  .choose-section:hover .choose-img {
+    animation: bounce1 0.7s linear; }
+
+.testimonials {
+  padding-bottom: 35px; }
+  .testimonials .testimonials-top {
+    background: rgba(34, 48, 96, 0.8) url(banner.jpg) no-repeat center;
+    background-blend-mode: multiply;
+    padding: 100px 0; }
+  .testimonials .testimonials-carousel {
+    margin-top: -100px; }
+    .testimonials .testimonials-carousel .testimonials-slider {
+      margin: 0 -15px;
+      background: #ffffff;
+      border-radius: 10px; }
+  .testimonials .slick-center.content-nav {
+    opacity: 1 !important; }
+    .testimonials .slick-center.content-nav img {
+      border: 3px solid #88C417;
+      border-radius: 50%;
+      padding: 5px; }
+  .testimonials .slick-active.content-nav {
+    opacity: 0.4;
+    transition: all 300ms ease; }
+  .testimonials .testimonialsInfo {
+    padding: 50px 30px 30px;
+    margin: 0 15px; }
+    .testimonials .testimonialsInfo .review-intro .name {
+    
+      font-size: 18px;
+      font-weight: 600; }
+    .testimonials .testimonialsInfo .review-intro .star i {
+      color: #ffdf00; }
+    .testimonials .testimonialsInfo .review-info {
+      ; }
+  .testimonials .tes-nav {
+    margin-left: 100px; }
+    .testimonials .tes-nav .content-nav img {
+      cursor: pointer; }
+
+.slick-list {
+  padding: 0 !important; }
+
+.slick-dots li button:before {
+  font-size: 30px !important; }
+
+.slick-dots {
+  bottom: -50px;
+  left: -50px; }
+
+.teams {
+  padding: 0 20px;
+  transition: all 0.3s; }
+  .teams.team-1 {
+    background: url(team-1.jpg) no-repeat center;
+    background-size: cover;
+    height: 480px; }
+  .teams.team-2 {
+    background: url(team-2.jpg) no-repeat center;
+    background-size: cover;
+    height: 480px; }
+  .teams.team-3 {
+    background: url(team-3.jpg) no-repeat center;
+    background-size: cover;
+    height: 480px; }
+  .teams::after {
+    content: "";
+    background-color: #223060cc;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s; }
+  .teams:hover::after {
+    height: 100%;
+    visibility: visible;
+    opacity: 1; }
+  .teams:hover .teams-member {
+    top: 220px; }
+  .teams .teams-member {
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    right: 40px;
+    transition: all 1s;
+    z-index: 2; }
+    .teams .teams-member .teams-name h4 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #ffffff; }
+    .teams .teams-member .teams-name span {
+      color: #a4ef15;
+      font-weight: 600;
+      text-transform: uppercase; }
+    .teams .teams-member .teams-info {
+      margin-top: 40px; }
+      .teams .teams-member .teams-info p {
+        color: #ffffff; }
+      .teams .teams-member .teams-info .social-links i {
+        color: #ffffff;
+        font-size: 20px;
+        margin: 0 6px; }
+
+/* Scss Document */
+/* Scss Document */
+.top-footer {
+  background: #182143;
+  padding: 70px 0; }
+  .top-footer .footer-info {
+    color: #d3d3d3; }
+  .top-footer .f-heading h5 {
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 24px; }
+  .top-footer .f-links a {
+    display: block;
+    color: #d3d3d3;
+    margin-bottom: 10px;
+    text-decoration: none; }
+  .top-footer .contact-info {
+    color: #d3d3d3; }
+
+    .bottom-footer{background: #000000; color: #ffffff; font-size: 18px; padding: 10px ;}
+    .bottom-footer p{padding: 0!important; margin: 0!important}
+
+/*# sourceMappingURL=style.css.map */
