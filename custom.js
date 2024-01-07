@@ -119,8 +119,21 @@
 
   });
 
-
  });
+
+$(window).resize(function() {
+  if ($(window).width() > 991) {
+   $(".nice-scroll").niceScroll({
+        cursorcolor: "rgba(135, 196, 23, 0.3)",
+        cursorwidth: "6px",
+        background: "rgba(255, 255, 255, 0.1)",
+        cursorborder: "",
+        autohidemode: false,
+        horizrailenabled: false
+    });
+  }
+ 
+});
 
 
 
