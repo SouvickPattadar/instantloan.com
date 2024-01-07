@@ -76,7 +76,7 @@
 
 @media (max-width: 991px) {
   .history-section {
-  overflow-y: auto!important; }
+  overflow-y: scroll!important; }
   .nav-item {
     border-bottom: 1px solid #dddddd; }
 
