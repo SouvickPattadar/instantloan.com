@@ -121,7 +121,15 @@
 
  });
 
-$(window).resize(function() {
+ $(window).width(function() {
+  if ($(window).width() < 992) {
+    $(".history-section").removeClass("nice-scroll");
+  }
+
+});
+
+
+$(window).width(function() {
   if ($(window).width() > 991) {
    $(".nice-scroll").niceScroll({
         cursorcolor: "rgba(135, 196, 23, 0.3)",
@@ -134,13 +142,6 @@ $(window).resize(function() {
   }
  
 });
-
-
-
-
-
-
-   
 
 	
 })(jQuery); 
