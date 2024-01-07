@@ -59,6 +59,9 @@
 @media (max-width: 991px) and (min-width: 584px) {
   .loans .loan-info {
     bottom: -100px !important; } }
+@media (min-width: 576px) {
+ .loan-title br {display :none!important}
+}
 @media (max-width: 575px) {
   .review-info br {
     display: none; }
