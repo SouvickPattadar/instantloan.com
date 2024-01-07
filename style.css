@@ -18,6 +18,7 @@
       color: #ffffff;
       text-decoration: none;
      }
+.navbar-toggler:focus{box-shadow:none!important}
 
 .navbar {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
