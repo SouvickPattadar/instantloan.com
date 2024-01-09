@@ -12,7 +12,7 @@
       userName : "required" ,
       userPhone : {
         required : true ,
-        maxlength : 10
+        minlength : 10
       },
       userEmail : {
         required : true ,
