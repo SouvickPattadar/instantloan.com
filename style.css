@@ -19,7 +19,13 @@
       text-decoration: none;
      }
 .navbar-toggler:focus{box-shadow:none!important}
+.show {
+    opacity: 1;  visibility: visible;
+}
 
+.go-top {
+    position: fixed; bottom: 15%; right: 3%;  background: #88C417; width: 40px; height: 40px; border-radius: 50%; z-index: 999;
+}
 .navbar {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   padding: 15px 0;
