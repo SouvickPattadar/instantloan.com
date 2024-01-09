@@ -22,6 +22,9 @@
 .show {
     opacity: 1;  visibility: visible;
 }
+.hide {
+    opacity: 0;  visibility: hidden;
+}
 
 .go-top {
     position: fixed; bottom: 15%; right: 3%;  background: #88C417; width: 40px; height: 40px; border-radius: 50%; z-index: 999;
