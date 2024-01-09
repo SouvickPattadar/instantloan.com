@@ -143,5 +143,26 @@ $(window).width(function() {
  
 });
 
+$(window).scroll(function(){
+    if($(this).scrollTop() > 300){
+    	$(".go-top").addClass('show').removeClass('hide')
+    }
+    else{
+    	$(".go-top").addClass('hide').removeClass('show')
+    }
+
+	});
+
+
+$(document).ready(function(){
+   	// Back to top 
+     $(".go-top").on('click' , function(){
+     $('html , body').animate({
+       scrollTop : 0
+     }, 500);
+     return false;
+	});
+        });
+
 	
 })(jQuery); 
